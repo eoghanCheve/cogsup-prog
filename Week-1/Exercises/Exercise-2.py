@@ -143,6 +143,8 @@ for i in range(rows):
         print(" ", end="")
     for _ in range(i * 2 + 1):
         print("o", end="")
+    for _ in range(rows - i - 1):
+        print(" ", end="")
     print("")
 
 print("---")
