@@ -1,0 +1,19 @@
+#Expyriment 1.0.0 (Python 3.10.5), .xpe-file, coding: UTF-8
+#date: Sun Sep 21 2025 00:32:34
+#sha1: 0eee65
+#modules: 
+#display: size=(800, 600), window_mode=True, opengl=2
+#os: uname_result(system='Linux', node='eoghan-Precision-7530', release='6.8.0-79-generic', version='#79-Ubuntu SMP PREEMPT_DYNAMIC Tue Aug 12 14:42:46 UTC 2025', machine='x86_64')
+Time,Type,Event,Value,Detail,Detail2
+1407,design,log,
+#design: #exp: Launching Random Motion
+#design: block_cnt,block_id,trial_cnt,trial_id
+1407,design,logged,
+1407,Experiment,started
+1407,stdout,received,'(0.9327099079632151, 0.360627546905739)'
+1407,stderr,received,'Traceback (most recent call last):'
+1407,stderr,received,'  File "/home/eoghan/Documents/cog_sup/experimental_app/PPE/Week-2/Exercises/launching_random_motionpy", line 63, in <module>'
+1407,stderr,received,'    launching_function()'
+1407,stderr,received,'  File "/home/eoghan/Documents/cog_sup/experimental_app/PPE/Week-2/Exercises/launching_random_motionpy", line 35, in launching_function'
+1407,stderr,received,'    print(dirvector)*(300,300)'
+1407,stderr,received,"TypeError: can't multiply sequence by non-int of type 'NoneType'"

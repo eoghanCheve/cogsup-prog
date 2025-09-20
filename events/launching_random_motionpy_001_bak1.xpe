@@ -1,0 +1,19 @@
+#Expyriment 1.0.0 (Python 3.10.5), .xpe-file, coding: UTF-8
+#date: Sun Sep 21 2025 00:32:20
+#sha1: ece6f9
+#modules: 
+#display: size=(800, 600), window_mode=True, opengl=2
+#os: uname_result(system='Linux', node='eoghan-Precision-7530', release='6.8.0-79-generic', version='#79-Ubuntu SMP PREEMPT_DYNAMIC Tue Aug 12 14:42:46 UTC 2025', machine='x86_64')
+Time,Type,Event,Value,Detail,Detail2
+1284,design,log,
+#design: #exp: Launching Random Motion
+#design: block_cnt,block_id,trial_cnt,trial_id
+1284,design,logged,
+1284,Experiment,started
+1285,stdout,received,'(-0.9978853567863906, 0.06499857468666455)'
+1285,stderr,received,'Traceback (most recent call last):'
+1285,stderr,received,'  File "/home/eoghan/Documents/cog_sup/experimental_app/PPE/Week-2/Exercises/launching_random_motionpy", line 63, in <module>'
+1285,stderr,received,'    launching_function()'
+1285,stderr,received,'  File "/home/eoghan/Documents/cog_sup/experimental_app/PPE/Week-2/Exercises/launching_random_motionpy", line 35, in launching_function'
+1285,stderr,received,'    print(dirvector)*300'
+1285,stderr,received,"TypeError: unsupported operand type(s) for *: 'NoneType' and 'int'"

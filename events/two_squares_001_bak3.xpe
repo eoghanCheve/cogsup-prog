@@ -1,0 +1,16 @@
+#Expyriment 1.0.0 (Python 3.10.5), .xpe-file, coding: UTF-8
+#date: Sat Sep 20 2025 23:09:39
+#sha1: 3bc55b
+#modules: 
+#display: size=(800, 600), window_mode=True, opengl=2
+#os: uname_result(system='Linux', node='eoghan-Precision-7530', release='6.8.0-79-generic', version='#79-Ubuntu SMP PREEMPT_DYNAMIC Tue Aug 12 14:42:46 UTC 2025', machine='x86_64')
+Time,Type,Event,Value,Detail,Detail2
+2051,design,log,
+#design: #exp: Square
+#design: block_cnt,block_id,trial_cnt,trial_id
+2051,design,logged,
+2051,Experiment,started
+2051,stderr,received,'Traceback (most recent call last):'
+2051,stderr,received,'  File "/home/eoghan/Documents/cog_sup/experimental_app/PPE/Week-2/Exercises/two_squares.py", line 20, in <module>'
+2051,stderr,received,'    bsquare.present(clear=True, update=False)'
+2051,stderr,received,"NameError: name 'bsquare' is not defined. Did you mean: 'gsquare'?"

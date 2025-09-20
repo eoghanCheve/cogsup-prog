@@ -1,0 +1,18 @@
+#Expyriment 1.0.0 (Python 3.10.5), .xpe-file, coding: UTF-8
+#date: Sat Sep 20 2025 23:37:59
+#sha1: 5c58f2
+#modules: 
+#display: size=(800, 600), window_mode=True, opengl=2
+#os: uname_result(system='Linux', node='eoghan-Precision-7530', release='6.8.0-79-generic', version='#79-Ubuntu SMP PREEMPT_DYNAMIC Tue Aug 12 14:42:46 UTC 2025', machine='x86_64')
+Time,Type,Event,Value,Detail,Detail2
+1334,design,log,
+#design: #exp: Launching
+#design: block_cnt,block_id,trial_cnt,trial_id
+1334,design,logged,
+1334,Experiment,started
+1335,Stimulus,presented,1
+1352,Stimulus,presented,0
+1353,stderr,received,'Traceback (most recent call last):'
+1353,stderr,received,'  File "/home/eoghan/Documents/cog_sup/experimental_app/PPE/Week-2/Exercises/launching.py", line 41, in <module>'
+1353,stderr,received,'    condition = exp.clock.time() >= 1000'
+1353,stderr,received,"TypeError: 'int' object is not callable"

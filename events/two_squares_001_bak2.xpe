@@ -1,0 +1,17 @@
+#Expyriment 1.0.0 (Python 3.10.5), .xpe-file, coding: UTF-8
+#date: Sat Sep 20 2025 23:09:16
+#sha1: 58decf
+#modules: 
+#display: size=(800, 600), window_mode=True, opengl=2
+#os: uname_result(system='Linux', node='eoghan-Precision-7530', release='6.8.0-79-generic', version='#79-Ubuntu SMP PREEMPT_DYNAMIC Tue Aug 12 14:42:46 UTC 2025', machine='x86_64')
+Time,Type,Event,Value,Detail,Detail2
+2863,design,log,
+#design: #exp: Square
+#design: block_cnt,block_id,trial_cnt,trial_id
+2863,design,logged,
+2863,Experiment,started
+2865,Stimulus,presented,0
+2875,Stimulus,presented,1
+12221,Keyboard,received,13,wait
+12221,Experiment,ended
+12304,Stimulus,presented,2

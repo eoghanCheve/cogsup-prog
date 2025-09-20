@@ -1,4 +1,4 @@
-import io, csv, os, ast, builtins, sys
+import io, csv, os, ast, builtins, sys, readline
 from contextlib import redirect_stdout
 
 # Change working directory to script's folder

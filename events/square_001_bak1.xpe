@@ -1,0 +1,25 @@
+#Expyriment 1.0.0 (Python 3.10.5), .xpe-file, coding: UTF-8
+#date: Sat Sep 20 2025 22:52:43
+#sha1: 6a6adb
+#modules: 
+#display: size=(800, 600), window_mode=True, opengl=2
+#os: uname_result(system='Linux', node='eoghan-Precision-7530', release='6.8.0-79-generic', version='#79-Ubuntu SMP PREEMPT_DYNAMIC Tue Aug 12 14:42:46 UTC 2025', machine='x86_64')
+Time,Type,Event,Value,Detail,Detail2
+4314,design,log,
+#design: #exp: Square
+#design: block_cnt,block_id,trial_cnt,trial_id
+4314,design,logged,
+4314,Experiment,started
+4328,Stimulus,presented,0
+4328,stderr,received,'Traceback (most recent call last):'
+4328,stderr,received,'  File "/home/eoghan/Documents/cog_sup/experimental_app/PPE/Week-2/Exercises/square.py", line 25, in <module>'
+4328,stderr,received,'    square.present(clear=False, update=False)'
+4328,stderr,received,'  File "/home/eoghan/Documents/cog_sup/cog-sup-venv/lib/python3.10/site-packages/expyriment/stimuli/_visual.py", line 1171, in present'
+4328,stderr,received,'    self.preload(inhibit_ogl_compress=True)'
+4328,stderr,received,'  File "/home/eoghan/Documents/cog_sup/cog-sup-venv/lib/python3.10/site-packages/expyriment/stimuli/_visual.py", line 1059, in preload'
+4328,stderr,received,'    self._get_surface(),'
+4328,stderr,received,'  File "/home/eoghan/Documents/cog_sup/cog-sup-venv/lib/python3.10/site-packages/expyriment/stimuli/_visual.py", line 490, in _get_surface'
+4329,stderr,received,'    tmp = self._create_surface()'
+4329,stderr,received,'  File "/home/eoghan/Documents/cog_sup/cog-sup-venv/lib/python3.10/site-packages/expyriment/stimuli/_rectangle.py", line 237, in _create_surface'
+4329,stderr,received,'    surface = pygame.surface.Surface('
+4329,stderr,received,'ValueError: size needs to be (number width, number height)'

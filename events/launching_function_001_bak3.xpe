@@ -1,0 +1,15 @@
+#Expyriment 1.0.0 (Python 3.10.5), .xpe-file, coding: UTF-8
+#date: Sun Sep 21 2025 00:10:43
+#sha1: 64168c
+#modules: 
+#display: size=(800, 600), window_mode=True, opengl=2
+#os: uname_result(system='Linux', node='eoghan-Precision-7530', release='6.8.0-79-generic', version='#79-Ubuntu SMP PREEMPT_DYNAMIC Tue Aug 12 14:42:46 UTC 2025', machine='x86_64')
+Time,Type,Event,Value,Detail,Detail2
+4693,stderr,received,'Traceback (most recent call last):'
+4693,stderr,received,'  File "/home/eoghan/Documents/cog_sup/experimental_app/PPE/Week-2/Exercises/launching_function.py", line 54, in <module>'
+4694,stderr,received,'    control.start(subject_id=1)'
+4694,stderr,received,'  File "/home/eoghan/Documents/cog_sup/cog-sup-venv/lib/python3.10/site-packages/expyriment/control/_experiment_control.py", line 209, in start'
+4694,stderr,received,'    experiment.keyboard.wait()'
+4694,stderr,received,'  File "/home/eoghan/Documents/cog_sup/cog-sup-venv/lib/python3.10/site-packages/expyriment/io/_keyboard.py", line 378, in wait'
+4694,stderr,received,'    for event in pygame.event.get([pygame.KEYDOWN, pygame.KEYUP]):'
+4694,stderr,received,'KeyboardInterrupt'

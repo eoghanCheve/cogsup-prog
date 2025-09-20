@@ -18,10 +18,7 @@ dct = {'a': 3, 'b': 7, 'c': -2, 'd': 10, 'e': 5}
 
 print("Exercise 4.1")
 
-s = 0
-for a in dct:
-    s += dct[a]
-print(s)
+pass
 
 print("---")
 
@@ -35,16 +32,7 @@ Print the key that has the largest value in dct.
 
 print("Exercise 4.2")
 
-s = 0
-flag = True
-for a in dct:
-    if flag :
-      s = a
-      flag = False
-    if dct[a] > dct[s]:
-       s = a
-print(s)
-
+pass
 
 print("---")
 
@@ -58,10 +46,7 @@ Create a new dictionary with the squares of all the values in dct.
 
 print("Exercise 4.3")
 
-s = {}
-for a in dct:
-    s[a] = dct[a]**2
-print(s)
+pass
 
 print("---")
 
@@ -75,9 +60,7 @@ Print only the keys in dct whose values are even numbers.
 
 print("Exercise 4.4")
 
-for a in dct:
-    if dct[a] % 2 == 0 :
-        print(a)
+pass
 
 print("---")
 
@@ -91,10 +74,7 @@ Create a new dictionary that swaps the keys and values in dct.
 
 print("Exercise 4.5")
 
-s = {}
-for a in dct:
-    s[dct[a]] = a
-print(s)
+pass
 
 print("---")
 
@@ -111,13 +91,7 @@ s = 'ccctcctttttcc'
 
 print("Exercise 4.6")
 
-dic = {}
-for a in s:
-    if a in dic :
-        dic[a] += 1
-    else :
-        dic[a] = 0
-print(dic)
+pass
 
 print("---")
 
@@ -136,10 +110,7 @@ responses = 'jjjpjjpppppjj'
 
 print("Exercise 4.7")
 
-rep = ""
-for a in responses:
-    rep += responses_mapping[a]
-print(rep)
+pass
 
 print("---")
 
@@ -154,12 +125,7 @@ Merge the following two dictionaries into one:
 
 print("Exercise 4.8")
 
-dic0 = {'a': 1, 'b': 2}
-dic1 = {'c': 3, 'd': 4}
-
-for a in dic1 :
-    dic0[a] = dic1[a]
-print(dic0)
+pass
 
 print("---")
 
@@ -174,9 +140,7 @@ create a new one whose keys are sorted alphabetically.
 
 print("Exercise 4.9")
 
-dic = {'zebra': 10, 'dolphin': 25, 'alligator': 3, 'monkey': 5, 'pig': 9}
-dic1 = {k: dic[k] for k in sorted(dic)}
-print(dic1)
+pass
 
 print("---")
 
@@ -191,16 +155,6 @@ create a new one whose values appear in increasing order.
 
 print("Exercise 4.10")
 
-dic = {'zebra': 10, 'dolphin': 25, 'alligator': 3, 'monkey': 5, 'pig': 9}
-
-def swap(dct):
-    s = {}
-    for a in dct:
-        s[dct[a]] = a
-    return s
-
-dic1 = swap({k: swap(dic)[k] for k in sorted(swap(dic))})
-
-print(dic1)
+pass
 
 print("---")

@@ -17,8 +17,7 @@ Write a for-loop that prints out the following line 20 times:
 
 print("Exercise 2.1")
 
-for _ in range(20):
-    print("All work and no play makes Jack a dull boy")
+pass
 
 print("---")
 """
@@ -31,8 +30,7 @@ Write a for-loop that prints out the numbers from 0 up to 5 inclusive.
 
 print("Exercise 2.2")
 
-for i in range(6):
-    print(i)
+pass
 
 print("---")
 
@@ -47,8 +45,7 @@ Write a for-loop that prints out the EVEN numbers from 2 up to 8 inclusive.
 
 print("Exercise 2.3")
 
-for i in range(2,9,2):
-    print(i)
+pass
 
 print("---")
 
@@ -62,15 +59,14 @@ Now write another loop to print 9 through 0 (i.e., backwards).
 
 print("Exercise 2.4")
 
-for i in range(9,-1,-1):
-    print(i)
+pass
 
 print("---")
 
 """
 Exercise 2.5
 
-Task: (didn't precise for loop)
+Task:
 ------
 Write code that prints out the following sequence:
  z
@@ -85,7 +81,8 @@ Write code that prints out the following sequence:
 
 print("Exercise 2.5")
 
-print("z\nzz\nzzz\nzzzz\nzzzzz\nzzzzzz\nzzzzzzz\nzzzzzzzz")
+pass
+
 print("---")
 
 """
@@ -109,7 +106,7 @@ of a simple print-statement.
 
 print("Exercise 2.6")
 
-print("1\n12\n123\1234\n12345")
+pass
 
 print("---")
 
@@ -138,14 +135,7 @@ your code needs to carry out for a certain value of rows.
 print("Exercise 2.7")
 
 rows = 5
-for i in range(rows):
-    for _ in range(rows - i - 1):
-        print(" ", end="")
-    for _ in range(i * 2 + 1):
-        print("o", end="")
-    for _ in range(rows - i - 1):
-        print(" ", end="")
-    print("")
+pass
 
 print("---")
 
@@ -166,8 +156,6 @@ Write code that prints the multiplication table:
  9  18  27  36  45  54  63  72  81  90
  10  20  30  40  50  60  70  80  90 100
 
-You should be able to give any value to row and see a pyramid. 
-
 Hint: One of the two links at the top of this script contains helpful information
 on how to align the numbers.
 ------
@@ -176,11 +164,5 @@ on how to align the numbers.
 print("Exercise 2.8")
 
 pass
-
-for i in range(1,11):
-    for j in range(1,11):
-        print('{:4d}'.format(i * j), end="")
-    print("")
-
 
 print("---")
