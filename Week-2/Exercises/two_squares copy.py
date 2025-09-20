@@ -10,24 +10,17 @@ exp = design.Experiment(name = "Square")
 # Initialize the experiment: Must be done before presenting any stimulus
 control.initialize(exp)
 
-# Create a fixation cross (color, size, and position will take on default values)
-fixation = stimuli.FixCross() # At this stage the fixation cross is not yet rendered
+gsquare = stimuli.Rectangle(size=(50,50), colour="green", position=(100,0))
 
-
-square = stimuli.Rectangle(size=(50,50), colour="blue")
+rsquare = stimuli.Rectangle(size=(50,50), colour="red", position=(-100,0))
 
 # Start running the experiment
 control.start(subject_id=1)
 
-square.present(clear=True, update=False)
+gsquare.present(clear=True, update=False)
 # Present the fixation cross
-fixation.present(clear=False, update=True)
+rsquare.present(clear=False, update=True)
 
-
-# Leave it on-screen for 500 ms
-exp.clock.wait(500)
-
-square.present(clear=True, update=True)
 
 
 # Leave it on-screen until a key is pressed
