@@ -1,0 +1,30 @@
+#Expyriment 1.0.0 (Python 3.10.5), .xpe-file, coding: UTF-8
+#date: Wed Oct 01 2025 11:43:46
+#sha1: 07815e
+#modules: 
+#display: size=(800, 600), window_mode=True, opengl=2
+#os: uname_result(system='Linux', node='eoghan-Precision-7530', release='6.8.0-79-generic', version='#79-Ubuntu SMP PREEMPT_DYNAMIC Tue Aug 12 14:42:46 UTC 2025', machine='x86_64')
+Time,Type,Event,Value,Detail,Detail2
+1009,stdout,received,'Preloading function not implemneted correctly.'
+1010,stdout,received,'Preloading function not implemneted correctly.'
+1010,stdout,received,'Preloading function not implemneted correctly.'
+1010,stdout,received,'Preloading function not implemneted correctly.'
+1010,stdout,received,'Preloading function not implemneted correctly.'
+1010,stdout,received,'Preloading function not implemneted correctly.'
+1010,stdout,received,'Preloading function not implemneted correctly.'
+1010,stdout,received,'Preloading function not implemneted correctly.'
+1010,stdout,received,'Preloading function not implemneted correctly.'
+1010,stdout,received,'Preloading function not implemneted correctly.'
+1010,stdout,received,'Preloading function not implemneted correctly.'
+1010,stdout,received,'Preloading function not implemneted correctly.'
+1010,stdout,received,'Preloading function not implemneted correctly.'
+1010,stdout,received,'Preloading function not implemneted correctly.'
+1010,stdout,received,'Preloading function not implemneted correctly.'
+1010,stdout,received,'Preloading function not implemneted correctly.'
+1010,stdout,received,'Preloading function not implemneted correctly.'
+1010,stdout,received,'Preloading function not implemneted correctly.'
+1010,stdout,received,'Preloading function not implemneted correctly.'
+1010,stdout,received,'Preloading function not implemneted correctly.'
+1010,stdout,received,'[0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]'
+1010,Experiment,ended
+1023,Stimulus,presented,21
