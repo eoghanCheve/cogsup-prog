@@ -1,0 +1,15 @@
+#Expyriment 1.0.0 (Python 3.10.5), .xpe-file, coding: UTF-8
+#date: Wed Oct 01 2025 15:48:59
+#sha1: 88d050
+#modules: 
+#display: size=(800, 600), window_mode=True, opengl=2
+#os: uname_result(system='Linux', node='eoghan-Precision-7530', release='6.8.0-79-generic', version='#79-Ubuntu SMP PREEMPT_DYNAMIC Tue Aug 12 14:42:46 UTC 2025', machine='x86_64')
+Time,Type,Event,Value,Detail,Detail2
+987,stderr,received,'Traceback (most recent call last):'
+987,stderr,received,'  File "/home/eoghan/Documents/cog_sup/experimental_app/Assigment/Week-4/Exercises/Ternus.py", line 44, in <module>'
+988,stderr,received,'    ternus()'
+988,stderr,received,'  File "/home/eoghan/Documents/cog_sup/experimental_app/Assigment/Week-4/Exercises/Ternus.py", line 32, in ternus'
+988,stderr,received,'    circles = [stimuli.Circle(radius=radius, color=color, position=(i*radius*1.5)-3*radius) for _ in range(4)]'
+988,stderr,received,'  File "/home/eoghan/Documents/cog_sup/experimental_app/Assigment/Week-4/Exercises/Ternus.py", line 32, in <listcomp>'
+988,stderr,received,'    circles = [stimuli.Circle(radius=radius, color=color, position=(i*radius*1.5)-3*radius) for _ in range(4)]'
+988,stderr,received,"NameError: free variable 'i' referenced before assignment in enclosing scope. Did you mean: 'id'?"

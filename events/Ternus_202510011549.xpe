@@ -1,0 +1,21 @@
+#Expyriment 1.0.0 (Python 3.10.5), .xpe-file, coding: UTF-8
+#date: Wed Oct 01 2025 15:49:26
+#sha1: 6f285e
+#modules: 
+#display: size=(800, 600), window_mode=True, opengl=2
+#os: uname_result(system='Linux', node='eoghan-Precision-7530', release='6.8.0-79-generic', version='#79-Ubuntu SMP PREEMPT_DYNAMIC Tue Aug 12 14:42:46 UTC 2025', machine='x86_64')
+Time,Type,Event,Value,Detail,Detail2
+977,stderr,received,'Traceback (most recent call last):'
+977,stderr,received,'  File "/home/eoghan/Documents/cog_sup/experimental_app/Assigment/Week-4/Exercises/Ternus.py", line 44, in <module>'
+978,stderr,received,'    ternus()'
+978,stderr,received,'  File "/home/eoghan/Documents/cog_sup/experimental_app/Assigment/Week-4/Exercises/Ternus.py", line 32, in ternus'
+978,stderr,received,'    circles = [stimuli.Circle(radius=radius, colour=color, position=(i*radius*1.5)-3*radius) for i in range(4)]'
+978,stderr,received,'  File "/home/eoghan/Documents/cog_sup/experimental_app/Assigment/Week-4/Exercises/Ternus.py", line 32, in <listcomp>'
+978,stderr,received,'    circles = [stimuli.Circle(radius=radius, colour=color, position=(i*radius*1.5)-3*radius) for i in range(4)]'
+978,stderr,received,'  File "/home/eoghan/Documents/cog_sup/cog-sup-venv/lib/python3.10/site-packages/expyriment/stimuli/_circle.py", line 51, in __init__'
+978,stderr,received,'    Ellipse.__init__(self, [radius, radius], colour, line_width,'
+978,stderr,received,'  File "/home/eoghan/Documents/cog_sup/cog-sup-venv/lib/python3.10/site-packages/expyriment/stimuli/_ellipse.py", line 43, in __init__'
+978,stderr,received,'    Visual.__init__(self, position)'
+978,stderr,received,'  File "/home/eoghan/Documents/cog_sup/cog-sup-venv/lib/python3.10/site-packages/expyriment/stimuli/_visual.py", line 237, in __init__'
+978,stderr,received,'    self._position = list(position)'
+978,stderr,received,"TypeError: 'float' object is not iterable"

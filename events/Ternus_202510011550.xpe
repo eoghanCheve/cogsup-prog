@@ -1,0 +1,49 @@
+#Expyriment 1.0.0 (Python 3.10.5), .xpe-file, coding: UTF-8
+#date: Wed Oct 01 2025 15:50:50
+#sha1: 613f51
+#modules: 
+#display: size=(800, 600), window_mode=True, opengl=2
+#os: uname_result(system='Linux', node='eoghan-Precision-7530', release='6.8.0-79-generic', version='#79-Ubuntu SMP PREEMPT_DYNAMIC Tue Aug 12 14:42:46 UTC 2025', machine='x86_64')
+Time,Type,Event,Value,Detail,Detail2
+1018,Stimulus,presented,0
+1028,Stimulus,presented,1
+1218,Stimulus,presented,2
+1227,Stimulus,presented,3
+1419,Stimulus,presented,0
+1427,Stimulus,presented,1
+1618,Stimulus,presented,2
+1627,Stimulus,presented,3
+1818,Stimulus,presented,0
+1827,Stimulus,presented,1
+2018,Stimulus,presented,2
+2027,Stimulus,presented,3
+2218,Stimulus,presented,0
+2227,Stimulus,presented,1
+2418,Stimulus,presented,2
+2426,Stimulus,presented,3
+2618,Stimulus,presented,0
+2626,Stimulus,presented,1
+2818,Stimulus,presented,2
+2826,Stimulus,presented,3
+3018,Stimulus,presented,0
+3026,Stimulus,presented,1
+3218,Stimulus,presented,2
+3226,Stimulus,presented,3
+3418,Stimulus,presented,0
+3426,Stimulus,presented,1
+3618,Stimulus,presented,2
+3625,Stimulus,presented,3
+3818,Stimulus,presented,0
+3825,Stimulus,presented,1
+4018,Stimulus,presented,2
+4025,Stimulus,presented,3
+4218,Stimulus,presented,0
+4225,Stimulus,presented,1
+4418,Stimulus,presented,2
+4424,Stimulus,presented,3
+4619,Stimulus,presented,0
+4624,Stimulus,presented,1
+4819,Stimulus,presented,2
+4824,Stimulus,presented,3
+5018,Experiment,ended
+5024,Stimulus,presented,4
