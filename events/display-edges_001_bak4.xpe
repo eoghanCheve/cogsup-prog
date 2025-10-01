@@ -1,19 +1,19 @@
 #Expyriment 1.0.0 (Python 3.10.5), .xpe-file, coding: UTF-8
-#date: Wed Sep 24 2025 17:18:44
-#sha1: e8891f
+#date: Wed Sep 24 2025 16:15:39
+#sha1: 594932
 #modules: 
 #display: size=(800, 600), window_mode=True, opengl=2
 #os: uname_result(system='Linux', node='eoghan-Precision-7530', release='6.8.0-79-generic', version='#79-Ubuntu SMP PREEMPT_DYNAMIC Tue Aug 12 14:42:46 UTC 2025', machine='x86_64')
 Time,Type,Event,Value,Detail,Detail2
-1780,design,log,
+1782,design,log,
 #design: #exp: Edge
 #design: block_cnt,block_id,trial_cnt,trial_id
-1780,design,logged,
-1780,Experiment,started
-1781,Stimulus,presented,0
-1781,Stimulus,presented,1
-1782,Stimulus,presented,2
-1789,Stimulus,presented,3
-5019,Keyboard,received,13,wait
-5019,Experiment,ended
-5141,Stimulus,presented,4
+1782,design,logged,
+1782,Experiment,started
+1783,Stimulus,presented,0
+1784,Stimulus,presented,1
+1784,Stimulus,presented,2
+1791,Stimulus,presented,3
+4383,Keyboard,received,13,wait
+4383,Experiment,ended
+4496,Stimulus,presented,4

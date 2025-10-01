@@ -25,7 +25,8 @@ swidth = 0.05 * width
 long = width/2 - swidth/2
 lat = height/2 - swidth/2
 
-square_list = [stimuli.Rectangle(line_width=1, size=(swidth,swidth), colour="red", position=((i%2)*long*2 - long, (j%2)*lat*2 - lat)) for i in range(2) for j in range(2)]
+square_list = [stimuli.Rectangle(line_width=1, size=(swidth,swidth), colour="red", 
+                                 position=((i%2)*long*2 - long, (j%2)*lat*2 - lat)) for i in range(2) for j in range(2)]
 #I initializated every square in one line because I can.
 
 # Start running the experiment
