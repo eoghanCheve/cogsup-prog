@@ -32,15 +32,26 @@ def present_for(elements, t=1000):
 def ternus(ISI = 0, color = False, radius = 50):
     circles = [stimuli.Circle(colour="blue", position=((i*radius*2.5)-3.75
                                                       *radius,0), radius=radius) for i in range(4)]
+    if color :
+        colors = ["red", "yellow", "green", "red"]
+        circles += [stimuli.Circle(colour=colors[i], position=((i*radius*2.5)-3.75
+                                                      *radius,0), radius=radius*0.5) for i in range(4)]
     load(circles)
-    for i in range(10):
-        present_for(circles[0:3], 200)
+    for _ in range(10):
+        if color :
+            present_for(circles[0:3]+circles[4:7], 200)
+        else :
+            present_for(circles[0:3], 200)
         if ISI > 5 :
             t0 = exp.clock.time
             bscreen.present()
             t1 = exp.clock.time - t0
             exp.clock.wait(ISI - t1)
-        present_for(circles[1:4], 200)
+
+        if color :
+            present_for(circles[1:4]+circles[5:8], 200)
+        else :
+            present_for(circles[1:4], 200)
         if ISI > 5 :
             t0 = exp.clock.time
             bscreen.present()
@@ -57,6 +68,7 @@ bscreen = stimuli.BlankScreen()
 
 ternus(0, False)
 ternus(50, False)
+ternus(50, True)
 
 
 control.end()
