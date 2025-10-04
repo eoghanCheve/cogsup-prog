@@ -1,6 +1,7 @@
 from expyriment import design, control, stimuli
 import random
 
+
 def load(stims):
     for stim in stims: 
         stim.preload()
@@ -34,14 +35,25 @@ def ternus(ISI = 0, color = False, radius = 50):
     load(circles)
     for i in range(10):
         present_for(circles[0:3], 200)
-        exp.clock.wait(ISI)
+        if ISI > 5 :
+            t0 = exp.clock.time
+            bscreen.present()
+            t1 = exp.clock.time - t0
+            exp.clock.wait(ISI - t1)
         present_for(circles[1:4], 200)
+        if ISI > 5 :
+            t0 = exp.clock.time
+            bscreen.present()
+            t1 = exp.clock.time - t0
+            exp.clock.wait(ISI - t1)
 
 """ Test functions """
 exp = design.Experiment()
 
 control.set_develop_mode()
 control.initialize(exp)
+
+bscreen = stimuli.BlankScreen()
 
 ternus(0, False)
 ternus(50, False)
