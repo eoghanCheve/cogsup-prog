@@ -1,0 +1,66 @@
+#Expyriment 1.0.0 (Python 3.10.5), .xpe-file, coding: UTF-8
+#date: Wed Oct 08 2025 15:52:19
+#sha1: 7a782b
+#modules: 
+#display: size=(800, 600), window_mode=True, opengl=2
+#os: uname_result(system='Linux', node='eoghan-Precision-7530', release='6.8.0-79-generic', version='#79-Ubuntu SMP PREEMPT_DYNAMIC Tue Aug 12 14:42:46 UTC 2025', machine='x86_64')
+Time,Type,Event,Value,Detail,Detail2
+1308,design,log,
+#design: #exp: Blindspot
+#design: block_cnt,block_id,trial_cnt,trial_id
+1308,design,logged,
+1308,Experiment,started
+1327,Stimulus,presented,0
+1771,Keyboard,received,1073741904,wait
+1778,Stimulus,presented,1
+1778,Stimulus,presented,2
+2221,Keyboard,received,1073741904,wait
+2221,Stimulus,presented,1
+2221,Stimulus,presented,2
+2490,Keyboard,received,1073741904,wait
+2490,Stimulus,presented,1
+2490,Stimulus,presented,2
+2838,Keyboard,received,1073741904,wait
+2838,Stimulus,presented,1
+2838,Stimulus,presented,2
+3011,Keyboard,received,1073741904,wait
+3012,Stimulus,presented,1
+3012,Stimulus,presented,2
+3174,Keyboard,received,1073741903,wait
+3174,Stimulus,presented,1
+3174,Stimulus,presented,2
+3360,Keyboard,received,1073741903,wait
+3360,Stimulus,presented,1
+3360,Stimulus,presented,2
+3579,Keyboard,received,1073741903,wait
+3579,Stimulus,presented,1
+3579,Stimulus,presented,2
+3630,Keyboard,received,1073741906,wait
+3630,Stimulus,presented,1
+3630,Stimulus,presented,2
+3859,Keyboard,received,1073741905,wait
+3859,Stimulus,presented,1
+3859,Stimulus,presented,2
+4210,Keyboard,received,32,wait
+4210,Stimulus,presented,1
+4211,Stimulus,presented,2
+4428,Keyboard,received,32,wait
+4428,Stimulus,presented,1
+4428,Stimulus,presented,2
+4632,Keyboard,received,32,wait
+4633,Stimulus,presented,1
+4633,Stimulus,presented,2
+4831,Keyboard,received,32,wait
+4831,Stimulus,presented,1
+4831,Stimulus,presented,2
+5033,Keyboard,received,32,wait
+5033,Stimulus,presented,1
+5033,Stimulus,presented,2
+8409,stderr,received,'Traceback (most recent call last):'
+8409,stderr,received,'  File "/home/eoghan/Documents/cog_sup/experimental_app/Assigment/Week-5/Exercises/blindspot.py", line 69, in <module>'
+8409,stderr,received,'    run_trial()'
+8409,stderr,received,'  File "/home/eoghan/Documents/cog_sup/experimental_app/Assigment/Week-5/Exercises/blindspot.py", line 49, in run_trial'
+8409,stderr,received,"    key = exp.keyboard.wait(keys = [K_DOWN, K_UP, K_LEFT, K_RIGHT, ord(' ')])"
+8409,stderr,received,'  File "/home/eoghan/Documents/cog_sup/cog-sup-venv/lib/python3.10/site-packages/expyriment/io/_keyboard.py", line 363, in wait'
+8409,stderr,received,'    if isinstance(callback_function, FunctionType):'
+8409,stderr,received,'KeyboardInterrupt'

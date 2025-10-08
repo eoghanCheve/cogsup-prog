@@ -1,0 +1,21 @@
+#Expyriment 1.0.0 (Python 3.10.5), .xpe-file, coding: UTF-8
+#date: Wed Oct 08 2025 15:37:40
+#sha1: 4425d7
+#modules: 
+#display: size=(800, 600), window_mode=True, opengl=2
+#os: uname_result(system='Linux', node='eoghan-Precision-7530', release='6.8.0-79-generic', version='#79-Ubuntu SMP PREEMPT_DYNAMIC Tue Aug 12 14:42:46 UTC 2025', machine='x86_64')
+Time,Type,Event,Value,Detail,Detail2
+1867,design,log,
+#design: #exp: Blindspot
+#design: block_cnt,block_id,trial_cnt,trial_id
+1868,design,logged,
+1868,Experiment,started
+1868,stderr,received,'Exception ignored in: <function Visual.__del__ at 0x78a7fb09dd80>'
+1868,stderr,received,'Traceback (most recent call last):'
+1868,stderr,received,'  File "/home/eoghan/Documents/cog_sup/cog-sup-venv/lib/python3.10/site-packages/expyriment/stimuli/_visual.py", line 266, in __del__'
+1868,stderr,received,'    if self._compression_filename is not None:'
+1868,stderr,received,"AttributeError: 'TextScreen' object has no attribute '_compression_filename'"
+1868,stderr,received,'Traceback (most recent call last):'
+1868,stderr,received,'  File "/home/eoghan/Documents/cog_sup/experimental_app/Assigment/Week-5/Exercises/blindspot.py", line 54, in <module>'
+1868,stderr,received,'    text = stimuli.TextScreen(headind="what", text="you can use the L and R arrows to move the circle ans Up & Down arrowd to change its size")'
+1868,stderr,received,"TypeError: TextScreen.__init__() got an unexpected keyword argument 'headind'"

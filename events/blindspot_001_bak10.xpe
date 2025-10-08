@@ -1,0 +1,52 @@
+#Expyriment 1.0.0 (Python 3.10.5), .xpe-file, coding: UTF-8
+#date: Wed Oct 08 2025 15:52:57
+#sha1: b7de2e
+#modules: 
+#display: size=(800, 600), window_mode=True, opengl=2
+#os: uname_result(system='Linux', node='eoghan-Precision-7530', release='6.8.0-79-generic', version='#79-Ubuntu SMP PREEMPT_DYNAMIC Tue Aug 12 14:42:46 UTC 2025', machine='x86_64')
+Time,Type,Event,Value,Detail,Detail2
+1366,design,log,
+#design: #exp: Blindspot
+#design: block_cnt,block_id,trial_cnt,trial_id
+1366,design,logged,
+1366,Experiment,started
+1376,Stimulus,presented,0
+1886,Keyboard,received,1073741903,wait
+1889,Stimulus,presented,1
+1889,Stimulus,presented,2
+2264,Keyboard,received,1073741903,wait
+2264,stdout,received,'key'
+2264,Stimulus,presented,1
+2264,Stimulus,presented,2
+2446,Keyboard,received,1073741903,wait
+2446,stdout,received,'key'
+2447,Stimulus,presented,1
+2447,Stimulus,presented,2
+2802,Keyboard,received,1073741903,wait
+2802,stdout,received,'key'
+2802,Stimulus,presented,1
+2802,Stimulus,presented,2
+3240,Keyboard,received,1073741905,wait
+3241,stdout,received,'key'
+3241,Stimulus,presented,1
+3241,Stimulus,presented,2
+3539,Keyboard,received,1073741904,wait
+3539,stdout,received,'key'
+3539,Stimulus,presented,1
+3539,Stimulus,presented,2
+3804,Keyboard,received,1073741906,wait
+3804,stdout,received,'key'
+3804,Stimulus,presented,1
+3804,Stimulus,presented,2
+4191,Keyboard,received,32,wait
+4191,stdout,received,'key'
+4192,Stimulus,presented,1
+4192,Stimulus,presented,2
+6666,stderr,received,'Traceback (most recent call last):'
+6666,stderr,received,'  File "/home/eoghan/Documents/cog_sup/experimental_app/Assigment/Week-5/Exercises/blindspot.py", line 70, in <module>'
+6666,stderr,received,'    run_trial()'
+6666,stderr,received,'  File "/home/eoghan/Documents/cog_sup/experimental_app/Assigment/Week-5/Exercises/blindspot.py", line 49, in run_trial'
+6666,stderr,received,"    key = exp.keyboard.wait(keys = [K_DOWN, K_UP, K_LEFT, K_RIGHT, ord(' ')])"
+6666,stderr,received,'  File "/home/eoghan/Documents/cog_sup/cog-sup-venv/lib/python3.10/site-packages/expyriment/io/_keyboard.py", line 378, in wait'
+6667,stderr,received,'    for event in pygame.event.get([pygame.KEYDOWN, pygame.KEYUP]):'
+6667,stderr,received,'KeyboardInterrupt'

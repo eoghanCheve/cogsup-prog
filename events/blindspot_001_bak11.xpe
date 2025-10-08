@@ -1,0 +1,36 @@
+#Expyriment 1.0.0 (Python 3.10.5), .xpe-file, coding: UTF-8
+#date: Wed Oct 08 2025 15:53:10
+#sha1: 485fb4
+#modules: 
+#display: size=(800, 600), window_mode=True, opengl=2
+#os: uname_result(system='Linux', node='eoghan-Precision-7530', release='6.8.0-79-generic', version='#79-Ubuntu SMP PREEMPT_DYNAMIC Tue Aug 12 14:42:46 UTC 2025', machine='x86_64')
+Time,Type,Event,Value,Detail,Detail2
+1591,design,log,
+#design: #exp: Blindspot
+#design: block_cnt,block_id,trial_cnt,trial_id
+1591,design,logged,
+1591,Experiment,started
+1608,Stimulus,presented,0
+2029,Keyboard,received,32,wait
+2032,Stimulus,presented,1
+2033,Stimulus,presented,2
+2833,Keyboard,received,32,wait
+2833,stdout,received,'(32, 791)'
+2833,Stimulus,presented,1
+2833,Stimulus,presented,2
+3666,Keyboard,received,32,wait
+3666,stdout,received,'(32, 825)'
+3666,Stimulus,presented,1
+3666,Stimulus,presented,2
+5241,Keyboard,received,1073741903,wait
+5241,stdout,received,'(1073741903, 1567)'
+5241,Stimulus,presented,1
+5241,Stimulus,presented,2
+8819,stderr,received,'Traceback (most recent call last):'
+8819,stderr,received,'  File "/home/eoghan/Documents/cog_sup/experimental_app/Assigment/Week-5/Exercises/blindspot.py", line 70, in <module>'
+8820,stderr,received,'    run_trial()'
+8820,stderr,received,'  File "/home/eoghan/Documents/cog_sup/experimental_app/Assigment/Week-5/Exercises/blindspot.py", line 49, in run_trial'
+8820,stderr,received,"    key = exp.keyboard.wait(keys = [K_DOWN, K_UP, K_LEFT, K_RIGHT, ord(' ')])"
+8820,stderr,received,'  File "/home/eoghan/Documents/cog_sup/cog-sup-venv/lib/python3.10/site-packages/expyriment/io/_keyboard.py", line 378, in wait'
+8821,stderr,received,'    for event in pygame.event.get([pygame.KEYDOWN, pygame.KEYUP]):'
+8821,stderr,received,'KeyboardInterrupt'

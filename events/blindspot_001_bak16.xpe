@@ -1,0 +1,42 @@
+#Expyriment 1.0.0 (Python 3.10.5), .xpe-file, coding: UTF-8
+#date: Wed Oct 08 2025 15:58:58
+#sha1: e2619d
+#modules: 
+#display: size=(800, 600), window_mode=True, opengl=2
+#os: uname_result(system='Linux', node='eoghan-Precision-7530', release='6.8.0-79-generic', version='#79-Ubuntu SMP PREEMPT_DYNAMIC Tue Aug 12 14:42:46 UTC 2025', machine='x86_64')
+Time,Type,Event,Value,Detail,Detail2
+2206,design,log,
+#design: #exp: Blindspot
+#design: block_cnt,block_id,trial_cnt,trial_id
+2206,design,logged,
+2206,Experiment,started
+2227,Stimulus,presented,0
+2550,Keyboard,received,1073741904,wait
+2554,Stimulus,presented,1
+2554,Stimulus,presented,2
+3113,Keyboard,received,1073741904,wait
+3113,stdout,received,'1073741904'
+3114,Stimulus,presented,1
+3114,Stimulus,presented,2
+3302,Keyboard,received,1073741904,wait
+3302,stdout,received,'1073741904'
+3302,Stimulus,presented,1
+3302,Stimulus,presented,2
+3471,Keyboard,received,1073741904,wait
+3471,stdout,received,'1073741904'
+3471,Stimulus,presented,1
+3471,Stimulus,presented,2
+3659,Keyboard,received,1073741904,wait
+3659,stdout,received,'1073741904'
+3659,Stimulus,presented,1
+3659,Stimulus,presented,2
+4354,Keyboard,received,1073741906,wait
+4354,stdout,received,'1073741906'
+4355,stderr,received,'Traceback (most recent call last):'
+4355,stderr,received,'  File "/home/eoghan/Documents/cog_sup/experimental_app/Assigment/Week-5/Exercises/blindspot.py", line 70, in <module>'
+4355,stderr,received,'    run_trial()'
+4355,stderr,received,'  File "/home/eoghan/Documents/cog_sup/experimental_app/Assigment/Week-5/Exercises/blindspot.py", line 56, in run_trial'
+4355,stderr,received,'    circle.scale((1.1,1.1))'
+4355,stderr,received,'  File "/home/eoghan/Documents/cog_sup/cog-sup-venv/lib/python3.10/site-packages/expyriment/stimuli/_visual.py", line 1317, in scale'
+4355,stderr,received,'    raise RuntimeError(Visual._exception_message.format('
+4355,stderr,received,'RuntimeError: Cannot call scale() on preloaded or compressed stimulus!'
