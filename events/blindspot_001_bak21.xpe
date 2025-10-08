@@ -1,0 +1,63 @@
+#Expyriment 1.0.0 (Python 3.10.5), .xpe-file, coding: UTF-8
+#date: Wed Oct 08 2025 16:40:01
+#sha1: 8406da
+#modules: 
+#display: size=(800, 600), window_mode=True, opengl=2
+#os: uname_result(system='Linux', node='eoghan-Precision-7530', release='6.8.0-79-generic', version='#79-Ubuntu SMP PREEMPT_DYNAMIC Tue Aug 12 14:42:46 UTC 2025', machine='x86_64')
+Time,Type,Event,Value,Detail,Detail2
+2071,design,log,
+#design: #exp: Blindspot
+#design: #dvn: subject_id,eye,key,radius,x_coord,y_coord
+#design: block_cnt,block_id,trial_cnt,trial_id
+2071,design,logged,
+2071,Experiment,started
+2094,Stimulus,presented,0
+2489,Keyboard,received,1073741903,wait
+2493,Stimulus,presented,1
+2493,Stimulus,presented,2
+3053,Keyboard,received,1073741903,wait
+3054,Stimulus,presented,1
+3054,Stimulus,presented,2
+3246,Keyboard,received,1073741903,wait
+3247,Stimulus,presented,1
+3247,Stimulus,presented,2
+3526,Keyboard,received,1073741904,wait
+3527,Stimulus,presented,1
+3527,Stimulus,presented,2
+3703,Keyboard,received,1073741904,wait
+3704,Stimulus,presented,1
+3704,Stimulus,presented,2
+4033,Keyboard,received,1073741906,wait
+4036,Stimulus,presented,1
+4036,Stimulus,presented,3
+4235,Keyboard,received,1073741906,wait
+4238,Stimulus,presented,1
+4238,Stimulus,presented,4
+4558,Keyboard,received,1073741905,wait
+4561,Stimulus,presented,1
+4561,Stimulus,presented,5
+4726,Keyboard,received,1073741905,wait
+4729,Stimulus,presented,1
+4729,Stimulus,presented,6
+4918,Keyboard,received,1073741905,wait
+4921,Stimulus,presented,1
+4921,Stimulus,presented,7
+5091,Keyboard,received,1073741905,wait
+5093,Stimulus,presented,1
+5093,Stimulus,presented,8
+5244,Keyboard,received,1073741905,wait
+5246,Stimulus,presented,1
+5246,Stimulus,presented,9
+5432,Keyboard,received,1073741905,wait
+5433,Stimulus,presented,1
+5433,Stimulus,presented,10
+5747,Keyboard,received,1073741906,wait
+5748,Stimulus,presented,1
+5748,Stimulus,presented,11
+5898,Keyboard,received,1073741906,wait
+5900,Stimulus,presented,1
+5900,Stimulus,presented,12
+6090,Keyboard,received,32,wait
+6090,Experiment,ended
+6090,Data,saved
+6312,Stimulus,presented,13
