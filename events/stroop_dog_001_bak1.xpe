@@ -1,0 +1,18 @@
+#Expyriment 1.0.0 (Python 3.10.5), .xpe-file, coding: UTF-8
+#date: Wed Oct 08 2025 17:26:11
+#sha1: 65aa79
+#modules: 
+#display: size=(800, 600), window_mode=True, opengl=2
+#os: uname_result(system='Linux', node='eoghan-Precision-7530', release='6.8.0-79-generic', version='#79-Ubuntu SMP PREEMPT_DYNAMIC Tue Aug 12 14:42:46 UTC 2025', machine='x86_64')
+Time,Type,Event,Value,Detail,Detail2
+2122,design,log,
+#design: #exp: Blindspot
+#design: #dvn: block nb,trial nb,type,word,color,RT,accuracy
+#design: block_cnt,block_id,trial_cnt,trial_id
+2122,design,logged,
+2122,Experiment,started
+3828,Keyboard,received,13,wait
+3828,stderr,received,'Traceback (most recent call last):'
+3828,stderr,received,'  File "/home/eoghan/Documents/cog_sup/experimental_app/Assigment/Week-5/Exercises/stroop_dog.py", line 50, in <module>'
+3829,stderr,received,'    run_trial()'
+3829,stderr,received,"TypeError: run_trial() missing 1 required positional argument: 'same_color'"
