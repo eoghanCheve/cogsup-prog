@@ -47,7 +47,6 @@ def run_trial(side = 1):
     timed_draw([fixation, circle])
     while True :
         key, tr = exp.keyboard.wait(keys = [K_DOWN, K_UP, K_LEFT, K_RIGHT, ord(' ')])
-        print(key)
         if key == K_LEFT:
             circle.move(offset = (-10,0))
         if key == K_RIGHT:
