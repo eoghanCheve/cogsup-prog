@@ -1,0 +1,42 @@
+#Expyriment 1.0.0 (Python 3.10.5), .xpe-file, coding: UTF-8
+#date: Sat Oct 11 2025 15:07:28
+#sha1: 5d6cb5
+#modules: 
+#display: size=(800, 600), window_mode=True, opengl=2
+#os: uname_result(system='Linux', node='eoghan-Precision-7530', release='6.8.0-85-generic', version='#85-Ubuntu SMP PREEMPT_DYNAMIC Thu Sep 18 15:26:59 UTC 2025', machine='x86_64')
+Time,Type,Event,Value,Detail,Detail2
+4670,design,log,
+#design: #exp: Blindspot
+#design: #dvn: block nb,trial nb,type,word,color,RT,accuracy
+#design: block_cnt,block_id,trial_cnt,trial_id
+4670,design,logged,
+4670,Experiment,started
+5463,Keyboard,received,13,wait
+5471,Stimulus,presented,0
+6526,Keyboard,received,121,wait
+6994,Keyboard,received,121,wait
+6995,Stimulus,presented,1
+9026,Keyboard,received,121,wait
+9027,Stimulus,presented,2
+9739,Keyboard,received,121,wait
+9740,Stimulus,presented,3
+10247,Keyboard,received,121,wait
+10248,Stimulus,presented,4
+11161,Keyboard,received,121,wait
+11162,Stimulus,presented,5
+12174,Keyboard,received,121,wait
+12176,Stimulus,presented,6
+12868,Keyboard,received,121,wait
+12868,Stimulus,presented,7
+13271,Keyboard,received,121,wait
+13273,Stimulus,presented,8
+13846,Keyboard,received,121,wait
+13847,Stimulus,presented,9
+14434,Keyboard,received,121,wait
+14435,Stimulus,presented,10
+14447,stderr,received,'Traceback (most recent call last):'
+14447,stderr,received,'  File "/home/eoghan/Documents/cog_sup/experimental_app/Assigment/Week-5/Exercises/stroop_dog.py", line 60, in <module>'
+14447,stderr,received,'    run_block()'
+14447,stderr,received,'  File "/home/eoghan/Documents/cog_sup/experimental_app/Assigment/Week-5/Exercises/stroop_dog.py", line 53, in run_block'
+14447,stderr,received,'    block+=1'
+14447,stderr,received,"UnboundLocalError: local variable 'block' referenced before assignment"

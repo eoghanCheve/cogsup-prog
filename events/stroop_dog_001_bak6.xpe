@@ -1,0 +1,34 @@
+#Expyriment 1.0.0 (Python 3.10.5), .xpe-file, coding: UTF-8
+#date: Sat Oct 11 2025 15:06:50
+#sha1: 599a92
+#modules: 
+#display: size=(800, 600), window_mode=True, opengl=2
+#os: uname_result(system='Linux', node='eoghan-Precision-7530', release='6.8.0-85-generic', version='#85-Ubuntu SMP PREEMPT_DYNAMIC Thu Sep 18 15:26:59 UTC 2025', machine='x86_64')
+Time,Type,Event,Value,Detail,Detail2
+2727,design,log,
+#design: #exp: Blindspot
+#design: #dvn: block nb,trial nb,type,word,color,RT,accuracy
+#design: block_cnt,block_id,trial_cnt,trial_id
+2727,design,logged,
+2727,Experiment,started
+3374,Keyboard,received,13,wait
+3387,Stimulus,presented,0
+4754,Keyboard,received,121,wait
+5911,Keyboard,received,121,wait
+5913,Stimulus,presented,1
+6927,Keyboard,received,121,wait
+6929,Stimulus,presented,2
+7474,Keyboard,received,121,wait
+7476,Stimulus,presented,3
+7956,Keyboard,received,121,wait
+7958,Stimulus,presented,4
+8695,Keyboard,received,121,wait
+8696,Stimulus,presented,5
+8700,stderr,received,'Traceback (most recent call last):'
+8700,stderr,received,'  File "/home/eoghan/Documents/cog_sup/experimental_app/Assigment/Week-5/Exercises/stroop_dog.py", line 60, in <module>'
+8700,stderr,received,'    run_block()'
+8700,stderr,received,'  File "/home/eoghan/Documents/cog_sup/experimental_app/Assigment/Week-5/Exercises/stroop_dog.py", line 52, in run_block'
+8700,stderr,received,'    run_trial(False)'
+8700,stderr,received,'  File "/home/eoghan/Documents/cog_sup/experimental_app/Assigment/Week-5/Exercises/stroop_dog.py", line 37, in run_trial'
+8700,stderr,received,'    text_display = colors[ind]'
+8700,stderr,received,'IndexError: list index out of range'
