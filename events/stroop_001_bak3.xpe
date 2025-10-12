@@ -1,0 +1,19 @@
+#Expyriment 1.0.0 (Python 3.10.5), .xpe-file, coding: UTF-8
+#date: Sun Oct 12 2025 10:32:53
+#sha1: d7b038
+#modules: 
+#display: size=(800, 600), window_mode=True, opengl=2
+#os: uname_result(system='Linux', node='eoghan-Precision-7530', release='6.8.0-85-generic', version='#85-Ubuntu SMP PREEMPT_DYNAMIC Thu Sep 18 15:26:59 UTC 2025', machine='x86_64')
+Time,Type,Event,Value,Detail,Detail2
+6796,design,log,
+#design: #exp: Blindspot
+#design: #dvn: block nb,trial nb,type,word,color,RT,accuracy
+#design: block_cnt,block_id,trial_cnt,trial_id
+6796,design,logged,
+6796,Experiment,started
+9465,stderr,received,'Traceback (most recent call last):'
+9465,stderr,received,'  File "/home/eoghan/Documents/cog_sup/experimental_app/Assigment/Week-5/Exercises/stroop.py", line 67, in <module>'
+9465,stderr,received,'    exp.keyboard.wait()'
+9465,stderr,received,'  File "/home/eoghan/Documents/cog_sup/cog-sup-venv/lib/python3.10/site-packages/expyriment/io/_keyboard.py", line 378, in wait'
+9466,stderr,received,'    for event in pygame.event.get([pygame.KEYDOWN, pygame.KEYUP]):'
+9466,stderr,received,'KeyboardInterrupt'

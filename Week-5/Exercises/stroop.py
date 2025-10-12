@@ -9,8 +9,6 @@ control.set_develop_mode()
 control.initialize(exp)
 
 colors = ["red", "blue", "green", "orange"]
-block = 1
-trial = 1
 
 """ Stimuli """
 
@@ -34,7 +32,7 @@ def present_for(stims, time):
 
 
 """ Experiment """
-def run_trial(same_color):
+def run_trial(same_color, block_nb, trial_nb):
     type = "mismatch"
     ind = design.randomize.rand_int(0,3)
     text_display = colors[ind]
@@ -46,26 +44,31 @@ def run_trial(same_color):
     text = stimuli.TextLine(text=text_display, text_colour=color_display)
     timed_draw([text])
     key, tr = exp.keyboard.wait(keys = [ord("y"), ord("Y"), ord("n"), ord("N"), ord(' ')])
-    exp.data.add([block, trial, type, text_display, color_display, tr, "todo"])
+    acc = 0
+    if ((key == ord("y") or key == ord("Y")) and same_color) or ((key == ord("n") or key == ord("N")) and not same_color):
+        acc = 1
+    exp.data.add([block_nb, trial_nb, type, text_display, color_display, tr, acc])
+    if key == ord(' ') :
+        return 1
+    else :
+        return 0
 
 
-def run_block():
+def run_block(block_nb):
     text = stimuli.TextScreen(heading="Finding the stroop", text="Type \"Y\" if it is the same color as the text, \"N\" else.\nPress space to finnish")
     text.present()
     exp.keyboard.wait()
-    trial = 1
-    for _ in range(10):
-        trial += 1
+    for i in range(10):
         cond = design.randomize.rand_int(0,1)
-        run_trial(cond)
-    block+=1
+        if run_trial(cond, block_nb, i) :
+            return 0
+    return 1
 
 control.start(subject_id=1)
 
 exp.keyboard.wait()
 
-block = 1
-run_block()
-run_block()
+if run_block(1) :
+    run_block(2)
     
 control.end()

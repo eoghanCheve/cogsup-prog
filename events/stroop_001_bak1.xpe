@@ -1,0 +1,61 @@
+#Expyriment 1.0.0 (Python 3.10.5), .xpe-file, coding: UTF-8
+#date: Sun Oct 12 2025 10:29:09
+#sha1: 3cd29f
+#modules: 
+#display: size=(800, 600), window_mode=True, opengl=2
+#os: uname_result(system='Linux', node='eoghan-Precision-7530', release='6.8.0-85-generic', version='#85-Ubuntu SMP PREEMPT_DYNAMIC Thu Sep 18 15:26:59 UTC 2025', machine='x86_64')
+Time,Type,Event,Value,Detail,Detail2
+2595,design,log,
+#design: #exp: Blindspot
+#design: #dvn: block nb,trial nb,type,word,color,RT,accuracy
+#design: block_cnt,block_id,trial_cnt,trial_id
+2595,design,logged,
+2595,Experiment,started
+3206,Keyboard,received,13,wait
+3221,Stimulus,presented,0
+4068,Keyboard,received,121,wait
+4070,Stimulus,presented,1
+4492,Keyboard,received,121,wait
+4493,Stimulus,presented,2
+4666,Keyboard,received,121,wait
+4667,Stimulus,presented,3
+4823,Keyboard,received,121,wait
+4824,Stimulus,presented,4
+4979,Keyboard,received,121,wait
+4981,Stimulus,presented,5
+5118,Keyboard,received,121,wait
+5119,Stimulus,presented,6
+5264,Keyboard,received,121,wait
+5265,Stimulus,presented,7
+5406,Keyboard,received,121,wait
+5407,Stimulus,presented,8
+5564,Keyboard,received,121,wait
+5565,Stimulus,presented,9
+5720,Keyboard,received,121,wait
+5721,Stimulus,presented,10
+5891,Keyboard,received,121,wait
+5904,Stimulus,presented,11
+6058,Keyboard,received,121,wait
+6059,Stimulus,presented,12
+6933,Keyboard,received,121,wait
+6934,Stimulus,presented,13
+7149,Keyboard,received,121,wait
+7150,Stimulus,presented,14
+7345,Keyboard,received,121,wait
+7346,Stimulus,presented,15
+7542,Keyboard,received,121,wait
+7543,Stimulus,presented,16
+7731,Keyboard,received,121,wait
+7732,Stimulus,presented,17
+7933,Keyboard,received,121,wait
+7934,Stimulus,presented,18
+8339,Keyboard,received,121,wait
+8340,Stimulus,presented,19
+8733,Keyboard,received,121,wait
+8734,Stimulus,presented,20
+9047,Keyboard,received,121,wait
+9048,Stimulus,presented,21
+9378,Keyboard,received,121,wait
+9378,Experiment,ended
+9379,Data,saved
+9472,Stimulus,presented,22
